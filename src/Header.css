@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.container-fluid{
+width: 100%;
+   height:650px;
+    background: url(./assets/hero-bg.jpg)  center center/ cover no-repeat !important;
+   border-bottom-right-radius:95px;
+      border-bottom-left-radius:95px;
+     padding-top: 0 !important;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black !important;
+}
+.container-fluid{
+display: flex;
+    justify-content: flex-start;
+    align-items:center;
+ flex-direction: column;
+ gap: 30px;
+ padding: 40px;
+}
+
+.header{
+    display: flex;
+      width: 80%;
+    min-height: 80px;
+
+    justify-content:space-between;
+    align-items: center;
+      flex-direction: row;
+      gap: 100px;
+ 
+   margin-bottom: 20px;
+}
+
+
+
+.logo{
+display: flex;
+   width:50%;
+    min-height: 100px;
+   
+      justify-content: flex-start !important;
+    align-items: center;
+    flex-direction: row;
+
+   
+}
+.navbar-brand{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;   
+    gap: 15px;
+        font-size: 20px;
+    
+}
+
+
+
+
+.nav{
+   width:40%;
+    min-height: 100px;
+    display: flex;
+     justify-content:center;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+
+ul{
+
+    list-style: none;
+      width:100%;
+    min-height: 100px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0 !important;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.last i{
+font-weight: 700;
+font-size: 22px;
+margin-left: 0;
+margin-right: 0;
+}
+
+  .last{
+    position: relative;
+  }
+
+  .count{
+
+    position: absolute;
+    right: 2px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color:rgb(211, 47, 47);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+  }
+
+.nav-link:hover{
+
+    color:rgb(252, 95, 95) !important;
+}
+
+
+.second-part{
+
+    width: 80%;
+    min-height: 200px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.second-part p{
+
+  font-size:20px;
+}
+
+.second-part h1 {
+
+    width:420px;
+ 
+    font-weight: normal;
+    font-size:55px;
+    text-align: left;
+    text-wrap: wrap;
+   line-height: 70px;
+}
+
+
+
+.shop{
+  color: white;
+    border-radius: 50px;
+    font-weight: lighter;
+    font-size: large;
+    width: 140px;
+    height: 45px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px !important;
+}
+
+.shop:hover{
+  color: white !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    background-color: #61CE70 !important;
+}
+    
+
+
+    @media (max-width: 768px) {
+
+
+.container-fluid{
+width: 100%;
+   height:550px;
+    background: url(./assets/hero-bg.jpg)  center center/ cover no-repeat !important;
+   border-bottom-right-radius:95px;
+      border-bottom-left-radius:95px;
+     padding-top: 0 !important;
+}
+
+
+
+
+        .container-fluid{
+display: flex;
+    justify-content: flex-start;
+    align-items:center;
+ flex-direction: column;
+ gap: 30px;
+ padding: 40px;
+}
+
+.header{
+    display: flex;
+      width: 80%;
+    min-height: 80px;
+
+    justify-content:space-between;
+    align-items: center;
+      flex-direction: row;
+      gap: 100px;
+ 
+   margin-bottom: 20px;
+}
+
+
+
+.logo{
+display: none !important;
+   width:50%;
+    min-height: 100px;
+   
+      justify-content: flex-start !important;
+    align-items: center;
+    flex-direction: row;
+
+   
+}
+.navbar-brand{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;   
+    gap: 15px;
+        font-size: 20px;
+    
+}
+
+
+
+
+.nav{
+   width:40%;
+    min-height: 100px;
+    display: flex;
+     justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+
+
+ul{
+
+    list-style: none;
+      width:100% !important;
+    min-height: 100px;
+    display: flex;
+     justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 0 !important;
+    font-size:20px;
+    padding: 10px;
+
+}
+
+
+.last i{
+font-weight: 700;
+font-size: 22px;
+margin-left: 0;
+margin-right: 0;
+}
+
+  
+.nav-link:hover{
+
+    color:rgb(252, 95, 95) !important;
+}
+
+
+.second-part{
+
+    width:  120%;
+    min-height: 200px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.second-part p{
+
+  font-size:15px;
+}
+
+.second-part h1 {
+
+    width:350px;
+ 
+    font-weight: normal;
+    font-size:40px;
+    text-align: left;
+    text-wrap: wrap;
+   line-height: 70px;
+}
+
+
+
+.shop{
+  color: white;
+    border-radius: 50px;
+    font-weight: lighter;
+    font-size: large;
+    width: 140px;
+    height: 45px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px !important;
+}
+        
+    }
